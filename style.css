@@ -5,13 +5,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow-y: auto;
 }
 
 .container {
     background: #fff0f5;
     padding: 25px;
     border-radius: 15px;
-    width: 350px;
+    width: 400px;
     text-align: center;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 }
@@ -23,6 +24,17 @@ h2, h3 {
 .subtitle {
     font-size: 14px;
     color: #555;
+}
+
+p, li {
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+
+ul, ol {
+    text-align: left;
+    padding-left: 20px;
 }
 
 input {
@@ -52,22 +64,16 @@ button:hover {
     background-color: #ff6b81;
 }
 
-.image-preview {
-    margin-top: 15px;
-}
-
 .image-preview img {
     width: 100%;
+    margin-top: 10px;
     border-radius: 10px;
     display: none;
 }
 
-.education {
-    margin-top: 15px;
-    font-size: 14px;
-    background: #ffd6e8;
-    padding: 10px;
-    border-radius: 10px;
+hr {
+    margin: 15px 0;
+    border: 1px solid #f4b6c2;
 }
 
 .hidden {
